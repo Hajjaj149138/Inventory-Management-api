@@ -1,0 +1,11 @@
+POST http://localhost:8080/api/products/
+Content-Type: application/json
+
+{
+  "name": "Mechanical Keyboard",
+  "description": "RGB Backlit Gaming Keyboard",
+  "sku": "KB-2026",
+  "price": 4500.0,
+  "quantity": 15,
+  "status": "ACTIVE"
+}
